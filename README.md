@@ -6,15 +6,16 @@ youtube video link : https://www.youtube.com/watch?v=X48VuDVv0do&t=3365s
 Topics covered:
 ==============
 
-|               Introduction                    |                 Advanced Topics                       |
-|--------------------------------------------- :|------------------------------------------------------:|
-|                                               |                                                       |
+
+|             Introduction                      |                   Advanced Topics                     |
+|:----------------------------------------------|:------------------------------------------------------|
 |    i.  What is Kubernetes                     |       i. K8s Namespaces - Organize your components    |
 |    ii. K8s Architecture                       |       ii. K8s Ingress                                 |
 |    iii.Main K8s Components                    |       iii.Helm - Package Manager                      |
-|    iv. Minikube and Kubectl - Local Setup     |       iv. Volumes - Persisting Data in K8s            |    
+|    iv. Minikube and Kubectl - Local Setup     |       iv. Volumes - Persisting Data in K8s            |
 |    v.  Main Kubectl commands - K8s CLI        |       v.  K8s StatefulSet - Deploying Stateful Apps   |
 |    vi. K8s YAML Configuration File            |       vi. K8s Services                                |
+
 
 
 =======================================================
