@@ -32,8 +32,9 @@ Topics covered:
 
 # 2. K8s Architecture
 
+![High level overview](\K8s Architecture_1.jpg)
 
-    ## POD
+##  POD
         - Smallest unit of K9s
         - Abstraction over container
         - Usually 1 application per pod
@@ -41,4 +42,15 @@ Topics covered:
         - New IP address is assigned anytime pod is re-created. 
           - So, we can't rely on IPs alone to allow Pod communication with a node
 
-    ## SERVICE & INGRESS
+##  SERVICE & INGRESS
+* SERVICE
+  - Permanent or static IP address attached to a pod
+  - Lifecycle of SERVICE is not connected with POD i.e. if a POD goes down, the SERVICE (or static IP address still remains valid)
+  - So, if pod is recreated,the preexisting SERVICE can be utlized to access the newly created POD is same way as before.
+  - Types
+    - EXTERNAL : When we want application to be accessible from browser i.e. from internet (outside of this K8s architecure)
+    - INTERNAL : When we want application or resources like DB to be only allowed to access from internal K8s architecture.
+  
+* INGRESS
+  - Provides a user friendly dns or address for use with EXTERNAL SERVICE.
+  - 
