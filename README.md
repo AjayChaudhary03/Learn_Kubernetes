@@ -32,7 +32,7 @@ Topics covered:
 
 # 2. K8s Architecture
 
-![High level overview](\K8s Architecture_1.jpg)
+![High level overview](./K8s%20Architecture_1.jpg)
 
 ##  POD
         - Smallest unit of K9s
