@@ -6,12 +6,12 @@ youtube video link : https://www.youtube.com/watch?v=X48VuDVv0do&t=3365s
 Topics covered:
 ==============
 A. Introduction
-    1. What is Kubernetes
-    2. K8s Architecture
-    3. Main K8s Components
-    4. Minikube and Kubectl - Local Setup
-    5. Main Kubectl commands - K8s CLI
-    6. K8s YAML Configuration File
+    i.  What is Kubernetes
+    ii. K8s Architecture
+    iii.Main K8s Components
+    iv. Minikube and Kubectl - Local Setup
+    v.  Main Kubectl commands - K8s CLI
+    vi. K8s YAML Configuration File
 B . Advanced Topics
     1. K8s Namespaces - Organize your components
     2. K8s Ingress
